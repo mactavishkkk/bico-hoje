@@ -47,84 +47,60 @@ A parte um deste projeto teve como objetivo a apresentação visual do produto p
 
 Protótipo este dísponíveil aqui:
 
-- Protótipo - [Figma](https://www.google.com/)
+- Protótipo - [Figma](https://www.figma.com/proto/SFP661cGQm1bybdycX8tyL/Bico-Hoje-PI?node-id=4-0&starting-point-node-id=1%3A2)
+
+# Prova de Conceito
+
+A parte um deste projeto teve como objetivo exercer uma prova de conceito sobre o produto. 
+
+Documento dísponíveil aqui:
+
+- PoC - [Google Slides](https://docs.google.com/presentation/d/1kp0H_PcRUI9jxwBGs22-c9XUS17TxSY2DoHpLSRDZUY/edit?usp=sharing)
 
 # Rodando o projeto
 
-#### Nativo
-
-Certifique-se de possuir o PHP >= 8.1, nodejs(npm) e o driver de um banco de dados relacional de sua escolha (_ele é apenas um detalhe_).
-
- 1. Abra um terminal na pasta desejada e clone o projeto
+1. Abra um terminal na pasta desejada e clone o projeto
 
 ```bash
-git clone https://github.com/mactavishkkk/boe.git
+git clone https://github.com/mactavishkkk/bico-hoje.git
 ```
+- Acesse o site do FlutterFlow.
+- Faça login na sua conta ou crie uma nova.
 
-2. Entre na raiz do projeto `cd boe` e instale todas as dependências
+2. Configurar Firebase
+- Acesse o Console do Firebase.
+- Crie um novo projeto.
+- No Console do Firebase, clique em "Adicionar app" e selecione a opção Flutter.
 
-```bash
-composer install
-npm install
-```
+Siga as instruções para registrar o app no Firebase. Isso incluirá baixar o arquivo google-services.json.
 
-3. Agora renomei o arquivo chamado `.env.example` em seu diretório para `.env`, adapte-o para as configurações de seu banco de dados caso necessário.
+3. Integração do Firebase com o FlutterFlow
+- No FlutterFlow, vá para a seção "Settings" do seu projeto.
+- Encontre a opção "Integrations" ou "Connectors".
+- Adicione uma nova integração e escolha Firebase.
 
-4. Agora basta rodar as migrations junto de suas seeds e acessar http://localhost/
+Faça o upload do arquivo google-services.json que você baixou anteriormente do Console do Firebase.
 
-```bash
-php artisan mitrate:fresh --seed
-```
+4. Criar uma Aplicação no FlutterFlow
+- Vá para a seção de design ou construção do FlutterFlow.
+- Adicione os elementos da interface do usuário e configure a aparência do seu aplicativo.
+- Utilize os componentes específicos do FlutterFlow para interações, como botões, listas, etc.
 
-_Insto criará toda a estrutura da base de dados e alguns registros para você se sentir livre a testar!_
+5. Adicionar Funcionalidades Firebase ao Seu Aplicativo
+- Utilize os blocos de construção do FlutterFlow para adicionar funcionalidades Firebase ao seu aplicativo, como autenticação, armazenamento de dados em tempo real, etc.
+- Siga as documentações do FlutterFlow e do Firebase para implementar recursos específicos.
 
-#### Docker
+6. Testar e Publicar
+- Teste o seu aplicativo no emulador ou em dispositivos reais.
+- Corrija qualquer problema que surgir durante os testes.
+- Quando estiver satisfeito, publique o seu aplicativo no FlutterFlow.
 
-Para rodar o projeto em um container e dispensar a instalação de outras tecnologias, basta possuir em sua máquina o _Docker Desktop_ instalado e seguir por aqui:
-
- 1. Abra um terminal na pasta desejada e clone o projeto
-
-```bash
-git clone https://github.com/mactavishkkk/boe.git
-```
-2. Entre na pasta raiz do projeto e suba o container do projeto digitando:
-
-```bash
-cd boe && docker compose up
-```
-
-3. Instale todas as dependências
-
-```bash
-./vendor/bin/sail composer install
-./vendor/bin/sail npm install
-```
-
-5. Agora renomeio o arquivo chamado `.env.example` em seu diretório para `.env`
-
-6. Agora basta rodar as migrations junto de suas seeds e acessar http://localhost/
-
-```bash
-php artisan mitrate:fresh --seed
-```
-
-Obs: Caso sua pasta "storage" não venha com as devidas permissão dentro do container, digite:
-
-```bash
-./vendor/bin/sail chmod -R gu+w storage
-./vendor/bin/sail chmod -R guo+w storage
-./vendor/bin/sail php artisan cache:clear
-```
-
-Obs: Você também pode abrir um terminal dentro do container, para evitar esse repetitivo "./vendor/bin/sail {comand}" dessa forma: `docker exec -it container.id' bash` descubra o id do container com `docker ps`
+Lembre-se de consultar a documentação oficial do FlutterFlow e do Firebase para obter informações detalhadas sobre cada etapa. Este guia fornece uma visão geral geral e os passos específicos podem variar com base nas atualizações ou alterações nas plataformas.
 
 ## Stacks utilizadas
 
-- Blade/breeze: "^1.21"
-- Tailwind: "^3.1"
-- Laravel: "^10.10"
-- PHP: "^8.1"
-- Docker Desktop: "^4.21"
+- Lorem ipsum: "^1.21"
+- Lorem ipsum: "^1.21"
 
 # Vídeo
 
