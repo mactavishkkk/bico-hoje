@@ -3,139 +3,144 @@
 
 Aqui será documentado o projeto integrador do curso de ADS em Senac - São Paulo
 
-Teremos o que chamamos de CRUD (_**C**reate **R**ead **U**pdate **D**elete_) de alguns módulos já pré modelados na parte anterior que são:
-
-- Lorem Ipsum
-- Lorem Ipsum
-- Lorem Ipsum
-- Lorem Ipsum
-- Lorem Ipsum
-
-Teremos alguns artefatos desenvolvidos, alguns mini-tutorias para execução do projeto, protótipos de interfaces e muito mais.
+Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
 
 ## Sumário
 
-- [Modelagem](#modelagem)
-- [Interfaces](protótipo-de-interfaces)
+- [Visão de Produto](#visão-de-produto)
+- [Persona](#persona)
+- [Protótipo](#protótipo)
+- [Vídeo](#vídeo)
 - [Time](#time)
 
-## Modelagem
+# Visão de Produto
 
-A parte um deste projeto teve como objetivo a modelagem a abstração da ideia por meio de alguns diagramas. 
+Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
 
-Artefatos estes que estão dísponíveis aqui:
+### Público-alvo
 
-- Documento (PDF) - [Google Drive](https://drive.google.com/file/d/1I7Y5vxHYHhnPMLAOZl93TunKZAz_cZ2-/view?usp=sharing)
-- Documento - [Google Docs](https://docs.google.com/document/d/1TqrN_IuCeWMEyXb-CXqCkhHOr9Q_l1iyzX398EwOKeo/edit)
-- Histórias de Usuário - [Miro](https://miro.com/app/board/uXjVMnEIVQA=/?share_link_id=393423487458)
-- Protótipo de Interfaces - [Figma](https://www.figma.com/file/tQYedRUUAFLAFfGWXo2UXi/Gestor-de-dados---Projeto-Integrador(Senac)?type=design&node-id=0%3A1&mode=design&t=osd43U6dPki2uNTc-1)
+Lorem Ipsum is simply dummy text of the printing and typesetting industry.
 
-## Protótipo de Interfaces
+### Dificuldades
 
-Aqui será uma seção que demonstrará os fluxos visuais de cada entidade:
+Lorem Ipsum is simply dummy text of the printing and typesetting industry.
 
-### Página Inicial
+### Missão
 
-![alt text](interfaces/home.png)
+Lorem Ipsum is simply dummy text of the printing and typesetting industry.
 
-### Pessoa Física
+### Benefícios
 
-Página Inicial:
+Lorem Ipsum is simply dummy text of the printing and typesetting industry.
 
-![alt text](interfaces/pessoa-fisica/index.png)
+### Diferencial
 
-Cadastro:
+Lorem Ipsum is simply dummy text of the printing and typesetting industry.
 
-![alt text](interfaces/pessoa-fisica/create.png)
+# Persona
 
-Edição:
+Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
 
-![alt text](interfaces/pessoa-fisica/edit.png)
+# Protótipo
 
-Exclusão:
+A parte um deste projeto teve como objetivo a apresentação visual do produto por meio de um protótipo desenvolvido no **Figma**. 
 
-![alt text](interfaces/pessoa-fisica/delete.png)
+Protótipo este dísponíveil aqui:
 
-### Pessoa Jurídica
+- Protótipo - [Figma](https://www.google.com/)
 
-Página Inicial:
+# Rodando o projeto
 
-![alt text](interfaces/pessoa-juridica/index.png)
+#### Nativo
 
-Cadastro:
+Certifique-se de possuir o PHP >= 8.1, nodejs(npm) e o driver de um banco de dados relacional de sua escolha (_ele é apenas um detalhe_).
 
-![alt text](interfaces/pessoa-juridica/create.png)
+ 1. Abra um terminal na pasta desejada e clone o projeto
 
-Edição:
+```bash
+git clone https://github.com/mactavishkkk/boe.git
+```
 
-![alt text](interfaces/pessoa-juridica/edit.png)
+2. Entre na raiz do projeto `cd boe` e instale todas as dependências
 
-Exclusão:
+```bash
+composer install
+npm install
+```
 
-![alt text](interfaces/pessoa-juridica/delete.png)
+3. Agora renomei o arquivo chamado `.env.example` em seu diretório para `.env`, adapte-o para as configurações de seu banco de dados caso necessário.
 
-### Professor
+4. Agora basta rodar as migrations junto de suas seeds e acessar http://localhost/
 
-Página Inicial:
+```bash
+php artisan mitrate:fresh --seed
+```
 
-![alt text](interfaces/professor/index.png)
+_Insto criará toda a estrutura da base de dados e alguns registros para você se sentir livre a testar!_
 
-Cadastro:
+#### Docker
 
-![alt text](interfaces/professor/create.png)
+Para rodar o projeto em um container e dispensar a instalação de outras tecnologias, basta possuir em sua máquina o _Docker Desktop_ instalado e seguir por aqui:
 
-Edição:
+ 1. Abra um terminal na pasta desejada e clone o projeto
 
-![alt text](interfaces/professor/edit.png)
+```bash
+git clone https://github.com/mactavishkkk/boe.git
+```
+2. Entre na pasta raiz do projeto e suba o container do projeto digitando:
 
-Exclusão:
+```bash
+cd boe && docker compose up
+```
 
-![alt text](interfaces/professor/delete.png)
+3. Instale todas as dependências
 
-### Aluno
+```bash
+./vendor/bin/sail composer install
+./vendor/bin/sail npm install
+```
 
-Página Inicial:
+5. Agora renomeio o arquivo chamado `.env.example` em seu diretório para `.env`
 
-![alt text](interfaces/aluno/index.png)
+6. Agora basta rodar as migrations junto de suas seeds e acessar http://localhost/
 
-Cadastro:
+```bash
+php artisan mitrate:fresh --seed
+```
 
-![alt text](interfaces/aluno/create.png)
+Obs: Caso sua pasta "storage" não venha com as devidas permissão dentro do container, digite:
 
-Edição:
+```bash
+./vendor/bin/sail chmod -R gu+w storage
+./vendor/bin/sail chmod -R guo+w storage
+./vendor/bin/sail php artisan cache:clear
+```
 
-![alt text](interfaces/aluno/edit.png)
+Obs: Você também pode abrir um terminal dentro do container, para evitar esse repetitivo "./vendor/bin/sail {comand}" dessa forma: `docker exec -it container.id' bash` descubra o id do container com `docker ps`
 
-Exclusão:
+## Stacks utilizadas
 
-![alt text](interfaces/aluno/delete.png)
+- Blade/breeze: "^1.21"
+- Tailwind: "^3.1"
+- Laravel: "^10.10"
+- PHP: "^8.1"
+- Docker Desktop: "^4.21"
 
-### Fornecedor
+# Vídeo
 
-Página Inicial:
+A parte um deste projeto teve como objetivo a apresentação visual do produto por meio de um vídeo gravado. O vídeo contém uma pequena amostra do produto em execução em ambiente local. 
 
-![alt text](interfaces/fornecedor/index.png)
+Vídeo este dísponíveil aqui:
 
-Cadastro:
+- Vídeo (MP4) - [Google Drive](https://www.google.com/)
 
-![alt text](interfaces/fornecedor/create.png)
-
-Edição:
-
-![alt text](interfaces/fornecedor/edit.png)
-
-Exclusão:
-
-![alt text](interfaces/fornecedor/delete.png)
-
-
-## Time
+# Time
 
 O time deste projeto é composto por:
 
-- Isaías Leite
-- Alice Maria
-- Guilherme Moreira
-- Wanderson Moutinho
-- Raphael Pavanelli
-- Helbio Renato
+- Lorem ipsum
+- Lorem ipsum
+- Lorem ipsum
+- Lorem ipsum
+- Lorem ipsum
+- Lorem ipsum
