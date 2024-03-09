@@ -3,8 +3,6 @@
 
 Aqui será documentado o projeto integrador do curso de ADS em Senac - São Paulo
 
-Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
-
 ## Sumário
 
 - [Visão de Produto](#visão-de-produto)
@@ -15,31 +13,75 @@ Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
 
 # Visão de Produto
 
-Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+Nosso aplicativo, chamado "Bico Hoje" , visa facilitar a conexão entre pessoas que precisam de empregos temporários e empregadores que necessitam de serviços rápidos e sem complicações, promovendo a geração de renda e a agilidade no preenchimento de demandas de trabalho temporário, reduzindo o desemprego e facilitando a vida de todos.
 
 ### Público-alvo
 
-Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+- Trabalhadores: Acesso a oportunidades de ganho imediato, flexibilidade de horários e ampliação de experiência profissional.
+- Empregadores: Rapidez na contratação, facilidade para encontrar mão de obra qualificada e flexibilidade para demandas emergenciais.
 
 ### Dificuldades
 
-Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+**Segurança de Dados:**
+
+Garantir a segurança dos dados sensíveis dos usuários, como informações de login e detalhes de pagamento.
+
+**Validação de Usuários:**
+
+Evitar registros falsos ou duplicados, implementando uma validação robusta durante o processo de cadastro.
+
+**Integração com Serviços de E-mail:**
+
+Possíveis dificuldades na integração com serviços de e-mail para envio de confirmações e recuperação de senha.
+
+**Experiência do Usuário:**
+
+Assegurar uma interface intuitiva para usuários de diferentes níveis de habilidade tecnológica.
+
+**Tratamento de Erros:**
+
+Implementar um tratamento de erros eficiente para fornecer feedback claro e orientações aos usuários em caso de problemas.
 
 ### Missão
 
-Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+A missão da aplicação "Bico-hoje" é conectar prestadores de serviços independentes a potenciais clientes, oferecendo uma plataforma fácil de usar que simplifica o processo de contratação de serviços não regulamentados. Buscamos proporcionar uma experiência eficiente, segura e confiável para ambas as partes, promovendo a autonomia dos prestadores de serviços e atendendo às necessidades dos usuários que buscam serviços específicos.
 
 ### Benefícios
 
-Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+**Facilidade de Acesso a Serviços:**
+
+Os usuários têm acesso fácil a uma variedade de serviços não regulamentados, tornando a contratação rápida e conveniente.
+
+**Empoderamento de Prestadores de Serviços:**
+
+Prestadores independentes têm a oportunidade de expandir seus negócios, alcançar novos clientes e gerenciar seus serviços de maneira autônoma.
+
+**Transparência e Confiança:**
+
+Implementação de avaliações e classificações para fornecer transparência sobre a qualidade dos serviços prestados, promovendo a confiança entre usuários e prestadores.
+
+**Agendamento Flexível:**
+
+Os usuários podem agendar serviços de acordo com sua conveniência, proporcionando flexibilidade para ambas as partes.
+
+**Comunicação Direta:**
+
+Possibilidade de comunicação direta entre prestadores de serviços e clientes por meio de um sistema de mensagens integrado.
 
 ### Diferencial
 
-Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+- Conexão direta entre pessoas que precisam de empregos temporários e empregadores que necessitam de serviços rápidos e sem complicações.
+- Interface intuitiva e fácil de usar, tornando o processo de busca e contratação de serviços mais simples e conveniente.
+- Recursos de avaliação e comentários dos usuários, permitindo que empregadores e trabalhadores temporários construam reputações confiáveis.
+- Notificações em tempo real sobre oportunidades de emprego disponíveis, garantindo que os usuários estejam sempre atualizados.
+- Integração com redes sociais e outras plataformas, facilitando o compartilhamento de oportunidades de emprego e a divulgação do aplicativo.
 
 # Persona
 
-Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+#### Cleber - Técnico de TI, atualmente desempregado
+- Descrição: Cleber é um técnico de TI experiente e altamente qualificado, que atualmente está desempregado. Com vasta experiência em suporte técnico, manutenção de sistemas e gerenciamento de redes, ele busca ativamente oportunidades de trabalho informal para utilizar suas habilidades e conhecimentos enquanto busca por uma recolocação profissional mais estável.
+
+- Benefícios: Cleber podera finalmente encontrar um sustento para sua familia, alem de poder oferecer seus serviços a diversos empregadores e formalizar uma possivel contratação integral, caso seu desempenho seja extraordinario.
 
 # Protótipo
 
@@ -47,7 +89,7 @@ A parte um deste projeto teve como objetivo a apresentação visual do produto p
 
 Protótipo este dísponíveil aqui:
 
-- Protótipo - [Figma](https://www.figma.com/proto/SFP661cGQm1bybdycX8tyL/Bico-Hoje-PI?node-id=4-0&starting-point-node-id=1%3A2)
+- Protótipo - [Figma](https://www.figma.com/proto/SFP661cGQm1bybdycX8tyL/Bico-Hoje-PI?node-id=1-2&starting-point-node-id=1%3A2&mode=design&t=LZ7nfo9qdvTQhGK4-1)
 
 # Prova de Conceito
 
@@ -114,9 +156,11 @@ Vídeo este dísponíveil aqui:
 
 O time deste projeto é composto por:
 
-- Lorem ipsum
-- Lorem ipsum
-- Lorem ipsum
-- Lorem ipsum
-- Lorem ipsum
-- Lorem ipsum
+- Tiago Minoru Gomes Miura
+- Gustavo Freitas da Silva
+- Mayra Jorge Silva
+- Isaias Leite de Moraes Gomes
+- Guilherme Lima Moreira
+- Alice Maria Souza da Silva
+- Arthur Morais Pereira
+- Helbio Renato Sbrana
