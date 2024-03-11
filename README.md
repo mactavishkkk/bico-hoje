@@ -147,8 +147,8 @@ Lembre-se de consultar a documentação oficial do FlutterFlow e do Firebase par
 
 ## Stacks utilizadas
 
-- Lorem ipsum: "^1.21"
-- Lorem ipsum: "^1.21"
+- FlutterFlow
+- FireBase
 
 # Vídeo
 
