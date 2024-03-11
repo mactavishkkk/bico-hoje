@@ -8,6 +8,8 @@ Aqui será documentado o projeto integrador do curso de ADS em Senac - São Paul
 - [Visão de Produto](#visão-de-produto)
 - [Persona](#persona)
 - [Protótipo](#protótipo)
+- [Prova de Conceito](#prova-de-conceito)
+- [Rodando o projeto](#rodando-o-projeto)
 - [Vídeo](#vídeo)
 - [Time](#time)
 
@@ -75,6 +77,10 @@ Possibilidade de comunicação direta entre prestadores de serviços e clientes 
 - Recursos de avaliação e comentários dos usuários, permitindo que empregadores e trabalhadores temporários construam reputações confiáveis.
 - Notificações em tempo real sobre oportunidades de emprego disponíveis, garantindo que os usuários estejam sempre atualizados.
 - Integração com redes sociais e outras plataformas, facilitando o compartilhamento de oportunidades de emprego e a divulgação do aplicativo.
+
+### Interfaces
+
+As interfaces você poderá encontrá-las na pasta chamada _"interfaces"_.
 
 # Persona
 
@@ -148,9 +154,9 @@ Lembre-se de consultar a documentação oficial do FlutterFlow e do Firebase par
 
 A parte um deste projeto teve como objetivo a apresentação visual do produto por meio de um vídeo gravado. O vídeo contém uma pequena amostra do produto em execução em ambiente local. 
 
-Vídeo este dísponíveil aqui:
+Vídeo este dísponíveil aqui abaixo ou na pasta _"assets"_:
 
-- Vídeo (MP4) - [Google Drive](https://www.google.com/)
+- Vídeo (MP4) - [Google Drive](https://drive.google.com/file/d/1h3oDCdrRV7PwAFz9nmA0V4h1Vag38-tQ/view?usp=sharing)
 
 # Time
 
