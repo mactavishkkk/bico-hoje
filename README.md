@@ -163,10 +163,6 @@ Vídeo este dísponíveil aqui abaixo ou na pasta _"assets"_:
 O time deste projeto é composto por:
 
 - Tiago Minoru Gomes Miura
-- Gustavo Freitas da Silva
-- Mayra Jorge Silva
 - Isaias Leite de Moraes Gomes
 - Guilherme Lima Moreira
 - Alice Maria Souza da Silva
-- Arthur Morais Pereira
-- Helbio Renato Sbrana
